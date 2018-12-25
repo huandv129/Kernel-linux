@@ -2,7 +2,7 @@ Một ngày đẹp trời toàn bộ server của hệ thống bị nâng Kernel
 
 Với Grub ta vẫn có phần Advanded để chọn Kernel cũ khi boot.
 
-<img src="\img\1.png"
+<img src="/img/1.png"
 
 Nhưng với hàng trăm server thì lại phải chờ nó khởi động rồi vào chọn hay sao. 
 Search một lúc thì mình thấy là có thể cấu hình grub để nó làm việc này thay cho mình.
