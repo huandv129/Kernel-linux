@@ -283,14 +283,8 @@ Các lệnh tắt và khởi động lại hệ thống Linux yêu cầu quyền
 
 | Lệnh |	Chức năng |	Ví dụ |
 |------|-----------|-------|
-| shutdown	| Tắt hệ thống tại thời điểm yêu cầu. Tùy chọn -H tạm dừng hệ thống, còn tùy chọn -P sẽ tắt nguồn.|	sudo shutdown -H now
-shutdown -H +15
-shutdown -P +5|
-| halt |	Tắt hệ thống tại thời điểm yêu cầu. |	sudo halt
-sudo halt -p
-sudo halt --reboot|
-| poweroff	| Ngắt nguồn khỏi hệ thống tại thời điểm yêu cầu.	| sudo shutdown -H now 
-sudo shutdown -H +15
-sudo shutdown -P +5 |
+| shutdown	| Tắt hệ thống tại thời điểm yêu cầu. Tùy chọn -H tạm dừng hệ thống, còn tùy chọn -P sẽ tắt nguồn.|	sudo shutdown -H now, shutdown -H +15, shutdown -P +5|
+| halt |	Tắt hệ thống tại thời điểm yêu cầu. |	sudo halt, sudo halt -p,sudo halt --reboot|
+| poweroff	| Ngắt nguồn khỏi hệ thống tại thời điểm yêu cầu.	| sudo shutdown -H now ,sudo shutdown -H +15, sudo shutdown -P +5 |
 
 
