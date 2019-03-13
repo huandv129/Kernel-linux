@@ -273,8 +273,7 @@ apt list --upgradable|
 yum update mysql|
 | yum list |	Trên các hệ thống dựa trên RPM, lệnh này liệt kê các gói.	| sudo yum update mysql |
 | yum install |	Trên các hệ thống dựa trên RPM, lệnh này cài đặt gói được yêu cầu.	| sudo yum -y install firefox|
-| yum list	| Trên các hệ thống dựa trên RPM, lệnh này liệt kê các gói đã biết và đã cài đặt.|	sudo yum list
-sudo yum list --installed|
+| yum list	| Trên các hệ thống dựa trên RPM, lệnh này liệt kê các gói đã biết và đã cài đặt.| sudo yum list,sudo yum list --installed|
 
 
 ### Tắt và khởi động lại
