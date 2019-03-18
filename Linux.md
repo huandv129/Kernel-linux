@@ -286,4 +286,15 @@ Các lệnh tắt và khởi động lại hệ thống Linux yêu cầu quyền
 | halt |	Tắt hệ thống tại thời điểm yêu cầu. |	sudo halt, sudo halt -p,sudo halt --reboot|
 | poweroff	| Ngắt nguồn khỏi hệ thống tại thời điểm yêu cầu.	| sudo shutdown -H now ,sudo shutdown -H +15, sudo shutdown -P +5 |
 
+Đọc lại tất cả lịch sử đã thao tác hoặc cấu hình
+```
+yum install emacs -y
+emacs ~/.bash_history
+```
+Nếu server dùng nat 1:1 vào ip private thì ta dùng lệnh sau để forward vào ip private và cài horizon trên ip private mà vẫn truy cập được
+`sudo ssh -L 8080:192.168.1.246:80 root@1.34.186.94 -p9923` (ở đây ip public là `1.34.186.94` port `9923` forward vào `192.168.1.246` port `80`)
 
+sau đó ta có thể truy cập vào dashboard theo địa chỉ local `http://127.0.0.1:8080/dashboard`
+
+Truy cập vào máy ảo thông qua
+`ip net e qdhcp-<network-ID> ssh cirros@172.16.1.9`
